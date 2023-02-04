@@ -7,13 +7,11 @@ body {
   position: relative;
   height: 80px;
   margin-bottom: 15px;
-
 }
 #container1 {
   background-color: white;
   height: 240px;
   margin: 15px;
-  
 }
 #container2 {
   background-color: white;
@@ -21,9 +19,8 @@ body {
   margin: 25px;
   border: 5px solid green;
   outline: 10px solid red;
-  
 }
-.box1{
+.box1 {
   background-color: greenyellow;
   height: 180px;
   width: 30%;
@@ -42,20 +39,17 @@ body {
 }
 
 .left {
-float: left; 
-margin: 0px 0px;
-
+  float: left;
+  margin: 0px 0px;
 }
 .right {
- float: right;
- margin:30px;
-
- 
+  float: right;
+  margin: 30px;
 }
 .left img {
- height: 60px;
- margin-top: 10px;
- margin-left: 15px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 .right nav li {
@@ -64,13 +58,11 @@ margin: 0px 0px;
   text-align: center;
 }
 .right nav li a {
- color: white;
- padding: 10px;
- text-decoration: none;
- 
+  color: white;
+  padding: 10px;
+  text-decoration: none;
 }
-.p{
+.p {
   color: white;
   padding: 10px;
 }
-

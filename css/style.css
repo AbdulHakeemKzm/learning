@@ -2,18 +2,17 @@ body {
   background-color: black;
   align-items: center;
 }
-div{
+div {
   align-items: center;
 }
-.main{
+.main {
   height: auto;
   width: auto;
   align-items: center;
-
 }
 
-.sub{
-  border-radius: 100px ;
+.sub {
+  border-radius: 100px;
   background-color: rgb(116, 109, 109);
   margin-top: 300px;
   margin-left: 650px;
@@ -23,7 +22,7 @@ div{
   width: 700px;
 }
 
-.box{
+.box {
   background-color: rgb(23, 241, 23);
   height: 100px;
   width: 200px;
@@ -33,10 +32,9 @@ div{
   float: left;
   box-shadow: 0px 0px 0px 10px;
   border-radius: 30px;
-
 }
 
-p{
+p {
   margin-top: 40px;
   text-align: center;
   color: white;
