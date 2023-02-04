@@ -1,23 +1,20 @@
 body {
+  margin: 0px;
   background-color: black;
-  align-items: center;
 }
-div {
+#main {
+  background-color: black;
+  display: flex;
+  justify-content: center;
   align-items: center;
-}
-.main {
-  height: auto;
-  width: auto;
-  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .sub {
   border-radius: 100px;
   background-color: rgb(116, 109, 109);
-  margin-top: 300px;
-  margin-left: 650px;
-  margin-bottom: 300px;
-  margin-right: 650px;
   height: 400px;
   width: 700px;
 }
