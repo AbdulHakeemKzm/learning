@@ -25,6 +25,13 @@
 5. `git push`  Push your commits to remote repo Eg:`git push origin main`
 
 
+<!--### setup GitHub SSH keys on ubuntu
+
+1. `cd ~/.ssh`   go to ssh folder
+2. `ssh-keygen -o -t rsa -C "email"` to create SSH keys -->
+
+
+
 
 
 
