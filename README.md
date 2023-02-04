@@ -3,6 +3,10 @@
 ## Tasks
 
 
+
+
+[Click Here](https://abdulhakeemkzm.github.io/learning/)
+
 ## Linux Commands
 
  
@@ -19,6 +23,10 @@
 3. `git add`  Add yuor file changes to git  Eg: for all changes `git add .`, for each file or folder `git add filename` Eg: `git add README.md`
 4. `git commit`  Commit Changes to git Eg: `git commit -m "Initial Commit"`
 5. `git push`  Push your commits to remote repo Eg:`git push origin main`
+
+
+
+
 
 
 | Requirements                       |  Output                              |
