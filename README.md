@@ -23,6 +23,15 @@
 1. `cd ~/.ssh`   go to ssh folder
 2. `ssh-keygen -o -t rsa -C "email"` to create SSH keys -->
 
+| Requirements                        | Output                                 |
+| ----------------------------------- | -------------------------------------- |
+| Task 1                              |
+| ![Task 1](task-1/images/task1.jpeg) | ![Task 1](task-1/images/task1out.png)  |
+| Task 2                              |
+| ![Task 2](task-2/images/task2.jpeg) | ![Task 2](task-2/images/task2out.jpeg) |
+| Task 3                              |
+| ![TAsk 3](task-3/images/task3.jpeg) | ![TAsk 3](task-3/images/task3out.png)  |
+
 ## Task 4
 
 Read The bellow pages and attend tests
