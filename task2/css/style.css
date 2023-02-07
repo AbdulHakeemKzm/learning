@@ -1,4 +1,8 @@
 body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  align-items: center;
   background-color: black;
   margin: 0 auto;
 }
@@ -9,11 +13,14 @@ body {
   margin-bottom: 15px;
 }
 #container1 {
+  align-items: center;
+  position: relative;
   background-color: white;
-  height: 240px;
+  height: 50vh;
   margin: 15px;
 }
 #container2 {
+  position: relative;
   background-color: white;
   height: 240px;
   margin: 25px;
@@ -21,23 +28,23 @@ body {
   outline: 10px solid red;
 }
 .box1 {
+  position: relative;
   background-color: greenyellow;
   height: 180px;
   width: 30%;
   float: left;
-  margin: 20px 30px;
+  margin: 20px;
   padding: 10px;
 }
-
 .box2 {
+  position: relative;
   background-color: greenyellow;
   height: 180px;
   width: 30%;
   float: right;
-  margin: 20px 30px;
+  margin: 20px;
   padding: 10px;
 }
-
 .left {
   float: left;
   margin: 0px 0px;
@@ -51,7 +58,6 @@ body {
   margin-top: 10px;
   margin-left: 15px;
 }
-
 .right nav li {
   list-style-type: none;
   display: inline;
@@ -62,7 +68,8 @@ body {
   padding: 10px;
   text-decoration: none;
 }
-.p {
-  color: white;
+p {
+  color: black;
   padding: 10px;
+  position: relative;
 }
