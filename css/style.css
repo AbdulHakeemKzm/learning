@@ -11,14 +11,12 @@ body {
   height: 100%;
   width: 100%;
 }
-
 .sub {
   border-radius: 100px;
   background-color: rgb(116, 109, 109);
   height: 400px;
   width: 700px;
 }
-
 .box {
   background-color: rgb(23, 241, 23);
   height: 100px;
