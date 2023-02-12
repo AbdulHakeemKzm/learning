@@ -1,4 +1,5 @@
 body {
+  margin: 0 auto;
   background-color: white;
 }
 #navbar {
@@ -38,6 +39,7 @@ img {
   margin-top: 1px;
 }
 .sidebar {
+  position: relative;
   float: left;
   list-style-type: none;
   height: 100%;
@@ -45,6 +47,7 @@ img {
   width: 15%;
 }
 li {
+  margin-left: -20px;
   list-style-type: none;
   padding-top: 20px;
   font-size: larger;
@@ -75,17 +78,19 @@ p {
   vertical-align: middle;
 }
 .second-container {
+  position: relative;
   background-color: white;
   float: right;
   width: 82%;
   height: 400px;
-  padding: 1%;
+  padding: 0%;
 }
 .side-head {
   font-size: larger;
   font-weight: 700;
   color: rgb(75, 235, 75);
   margin-top: 20px;
+  margin-left: -20px;
 }
 .box2 {
   background-color: red;
