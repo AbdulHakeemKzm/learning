@@ -3,7 +3,7 @@
 ## Links
 
 - [Task Page](https://abdulhakeemkzm.github.io/learning/)
-<!-- - [Linkdin](https://www.linkedin.com/in/abdulhakeem-kzm-65a27b167) -->
+- [Linkdin](https://www.linkedin.com/in/abdulhakeem-kzm-65a27b167)
 - [StackOverflow](https://stackoverflow.com/users/21194104/abdul-hakeem-kzm)
 
 ## Linux Commands
