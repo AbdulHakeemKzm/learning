@@ -89,8 +89,6 @@ p {
 }
 .box2 {
   background-color: red;
-  width: 150px;
-  height: 150px;
   float: left;
   border-radius: 50%;
   margin: 5%;
