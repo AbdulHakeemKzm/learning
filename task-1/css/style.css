@@ -79,6 +79,9 @@ h3 {
 h2 {
   color: white;
   float: left;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 25px;
+}
+h1 {
+  margin-left: -10px;
 }
