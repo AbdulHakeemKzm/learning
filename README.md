@@ -1,8 +1,12 @@
 # Tasks
 
-## Links
+## Demo
 
 - [Task Page](https://abdulhakeemkzm.github.io/learning/)
+
+## Links
+
+- [GitHub](https://github.com/AbdulHakeemKzm)
 - [Linkdin](https://www.linkedin.com/in/abdulhakeem-kzm-65a27b167)
 - [StackOverflow](https://stackoverflow.com/users/21194104/abdul-hakeem-kzm)
 
@@ -12,27 +16,34 @@
 - `ls` - List contents of a directory, Eg: `ls -a` lists hidden files as well.
 - `pwd` - Display current working directory path
 - `cat` - Display contents of a file. Eg: `cat README.md`
+- `rm` - remove file or folder Eg: `rm ducoment.txt`
+- `clear` - clear terminal
 
 ## Git Commands
 
 1. `git config` Configure git user. Eg: `git config --global user.name` ,
    `git config --global user.email`
-2. `git clone` Clone a remote git repo to your local Eg: for Github `git clone https://github.com/username/repositoryname.git`
-3. `git add` Add yuor file changes to git Eg: for all changes `git add .`, for each file or folder `git add filename` Eg: `git add README.md`
-4. `git commit` Commit Changes to git Eg: `git commit -m "Initial Commit"`
-5. `git push` Push your commits to remote repo Eg:`git push origin main`
+2. `git config --list` to see added config
+3. `git clone` Clone a remote git repo to your local Eg: for Github `git clone https://github.com/username/repositoryname.git`
+4. `git status` see the current changes
+5. `git add` Add yuor file changes to git Eg: for all changes `git add .`, for each file or folder `git add filename` Eg: `git add README.md`
+6. `git commit` Commit Changes to git Eg: `git commit -m "Initial Commit"`
+7. `git push` Push your commits to remote repo Eg:`git push origin main`
+8. `git reset --hard` remove all changes
+9. `git diff` see the changes on each file
+10. `git log` see commit history
 
-<!--### setup GitHub SSH keys on ubuntu
+### setup GitHub SSH keys
 
-1. `cd ~/.ssh`   go to ssh folder
-2. `ssh-keygen -o -t rsa -C "email"` to create SSH keys -->
+1. `cd ~/.ssh` go to ssh folder
+2. `ssh-keygen -o -t rsa -C "email"` to create SSH keys
 
 | Requirements                        | Output                                 |
 | ----------------------------------- | -------------------------------------- |
 | Task 1                              |                                        |
-| ![Task 1](task-1/images/task1.jpeg) | ![Task 1](task-1/images/task1out.png)  |
+| ![Task 1](task-1/images/task1.jpeg) | ![Task 1](task-1/images/task1outn.png) |
 | Task 2                              |                                        |
-| ![Task 2](task-2/images/task2.jpeg) | ![Task 2](task-2/images/task2out.jpeg) |
+| ![Task 2](task-2/images/task2.jpeg) | ![Task 2](task-2/images/task2outn.png) |
 | Task 3                              |                                        |
 | ![TAsk 3](task-3/images/task3.jpeg) | ![TAsk 3](task-3/images/task3out.png)  |
 
