@@ -36,3 +36,22 @@ p {
   font-size: 20px;
   font-weight: 800;
 }
+
+@media screen and (max-width: 500px) {
+  .sub {
+    border-radius: 0px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    display: inline-block;
+  }
+  .box {
+    margin: 20%;
+    margin-left: 16%;
+    border-radius: 0%;
+    height: 100px;
+    width: 200px;
+  }
+}
