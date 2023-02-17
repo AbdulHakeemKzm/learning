@@ -123,15 +123,8 @@ li a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.center2 {
-  margin-top: 100px;
-}
-.center2 p {
-  color: black;
-}
-.center3 {
-  margin-top: -10px;
+  color: white;
+  font-weight: bold;
 }
 .circ1 {
   background-color: rgb(165, 59, 226);
@@ -228,4 +221,7 @@ li a {
   background-color: orange;
   height: 40%;
   margin-top: 42.5%;
+}
+.font-white {
+  color: black;
 }
