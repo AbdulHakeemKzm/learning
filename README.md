@@ -32,6 +32,7 @@
 8. `git reset --hard` remove all changes
 9. `git diff` see the changes on each file
 10. `git log` see commit history
+11. `git pull` Pull commit from remote repo
 
 ### setup GitHub SSH keys
 
@@ -67,3 +68,9 @@ Read The bellow pages and attend tests
 - [Tables](https://www.w3schools.com/html/html_tables.asp)
 - [Classes](https://www.w3schools.com/html/html_classes.asp)
 - [Id](https://www.w3schools.com/html/html_id.asp)
+- [Css-Tables](https://www.w3schools.com/css/css_table.asp)
+- [Css-Tables-size](https://www.w3schools.com/css/css_table_size.asp)
+- [Css-Tables-Alignment](https://www.w3schools.com/css/css_table_align.asp)
+- [Css-Tables-Style](https://www.w3schools.com/css/css_table_style.asp)
+- [Css-Tables-Responsive](https://www.w3schools.com/css/css_table_responsive.asp)
+- [Css-forms](https://www.w3schools.com/css/css_form.asp)
