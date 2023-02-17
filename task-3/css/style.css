@@ -69,13 +69,17 @@ li a {
   height: 250px;
   float: left;
   margin: 1.5%;
-  text-align: center;
-}
-.box1 h3,
-p {
   margin-top: 50px;
   color: white;
-  vertical-align: middle;
+  text-align: center;
+}
+.box1 > h3 {
+  margin-top: 20%;
+}
+.box1 > p {
+  font-size: large;
+  font-weight: 900;
+  margin-top: 10%;
 }
 .second-container {
   position: relative;
@@ -83,7 +87,7 @@ p {
   float: right;
   width: 82%;
   height: 400px;
-  padding: 0%;
+  padding: 1%;
 }
 .side-head {
   font-size: larger;
@@ -93,31 +97,32 @@ p {
   margin-left: -20px;
 }
 .box2 {
-  background-color: red;
+  width: 20%;
+  height: 76%;
   float: left;
+  margin: 2.5%;
   border-radius: 50%;
-  margin: 5%;
-  box-shadow: 0px 0px 0px 40px blueviolet;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  vertical-align: middle;
-  font-weight: bold;
+  position: relative;
 }
-.a {
+.rect1 {
   background-color: rgb(55, 245, 81);
 }
-.b {
+.rect2 {
   background-color: rgb(155, 66, 238);
 }
-.c {
+.rect3 {
   background-color: orangered;
 }
-.d {
+.rect4 {
   background-color: rgb(30, 179, 238);
 }
-.center1 {
-  margin-top: 70px;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .center2 {
   margin-top: 100px;
@@ -128,78 +133,99 @@ p {
 .center3 {
   margin-top: -10px;
 }
-.e {
-  width: 160px;
-  height: 160px;
-  box-shadow: 0px 0px 0px 40px blueviolet;
-  background-color: rgb(22, 219, 154);
-  margin-top: 40px;
-  margin-left: 110px;
-  margin-right: 200px;
+.circ1 {
+  background-color: rgb(165, 59, 226);
 }
-.f {
-  width: 220px;
-  height: 220px;
-  box-shadow: 0px 0px 0px 10px rgb(34, 184, 243);
+.circ2 {
+  background-color: rgb(37, 215, 247);
+}
+.circ3 {
+  background-color: rgb(250, 117, 117);
+}
+.circ4 {
+  background-color: rgb(236, 132, 132);
+}
+.incirc1 {
+  background-color: rgb(54, 218, 108);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+}
+
+.incirc2 {
   background-color: white;
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-right: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
 }
-.g {
-  width: 100px;
-  height: 100px;
-  box-shadow: 0px 0px 0px 60px orange, 0px 0px 0px 70px red;
-  background-color: blueviolet;
-  margin-top: 70px;
+.incirc3 {
+  background-color: rgb(241, 159, 159);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+}
+.incirc31 {
+  background-color: rgb(194, 88, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40%;
+  height: 40%;
 }
 .box3 {
-  float: left;
-  width: 250px;
-  height: 250px;
-  background-color: white;
-  margin-left: 80px;
+  width: 100%;
+  height: 70%;
 }
 .box4 {
   background-color: blue;
-  width: 10px;
+  width: 3%;
   float: left;
-  margin: 10px 15px 0px 10px;
+  margin: 3% 5% 0% 3%;
 }
 .box5 {
   background-color: black;
-  height: 10px;
-  width: 250px;
+  height: 5%;
+  width: 100%;
   float: left;
-  margin-left: 10px;
+  margin-left: 3%;
 }
 .h {
   background-color: rgb(78, 226, 78);
-  height: 200px;
-  margin-top: 10px;
+  height: 94%;
+  margin-top: 6%;
 }
 .i {
   background-color: orangered;
-  height: 120px;
-  margin-top: 90px;
+  height: 70%;
+  margin-top: 22%;
 }
 .j {
   background-color: rgb(176, 103, 245);
-  height: 150px;
-  margin-top: 60px;
+  height: 80%;
+  margin-top: 15.5%;
 }
 .k {
   background-color: rgb(38, 231, 189);
-  height: 100px;
-  margin-top: 110px;
+  height: 50%;
+  margin-top: 35.5%;
 }
 .l {
   background-color: rgb(90, 79, 79);
-  height: 170px;
-  margin-top: 40px;
+  height: 80%;
+  margin-top: 15.5%;
 }
 .m {
   background-color: orange;
-  height: 90px;
-  margin-top: 120px;
+  height: 40%;
+  margin-top: 42.5%;
 }
