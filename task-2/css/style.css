@@ -92,12 +92,8 @@ h2 {
     margin: 7%;
     float: left;
   }
-  #navbar {
-    height: 100px;
-  }
   .right {
-    float: left;
-    margin-top: 1%;
+    display: none;
     margin-left: 0px;
   }
 }
