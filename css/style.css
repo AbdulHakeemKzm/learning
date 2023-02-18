@@ -40,16 +40,17 @@ p {
 @media screen and (max-width: 500px) {
   .sub {
     border-radius: 0px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    position: absolute;
     height: 80%;
     width: 80%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
   }
   .box {
     margin: 20%;
-    margin-left: 16%;
+    margin-left: 0%;
     border-radius: 0%;
     height: 100px;
     width: 200px;
