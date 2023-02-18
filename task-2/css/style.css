@@ -80,11 +80,10 @@ h2 {
   float: left;
   color: cornsilk;
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   #container1 {
     display: inline-block;
-    height: 500px;
+    height: 540px;
     width: fit-content;
   }
   .box1,
@@ -100,5 +99,11 @@ h2 {
     float: left;
     margin-top: 1%;
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 550px) {
+  .box1,
+  .box2 {
+    width: 38%;
   }
 }
