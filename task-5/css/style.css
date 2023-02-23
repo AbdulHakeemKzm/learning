@@ -98,7 +98,41 @@ th {
   height: 50px;
 }
 table {
+  overflow: auto;
   margin-left: 16%;
   width: 80%;
   height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .table {
+    overflow: auto;
+  }
+  table {
+    margin-left: 5%;
+    margin-right: 0%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .left {
+    display: flex;
+    justify-content: start;
+  }
+  .right {
+    width: 0%;
+    margin-left: 9%;
+    justify-content: left;
+    display: flex;
+  }
+  .head {
+    display: flex;
+    margin-left: 3%;
+  }
+  button {
+  }
 }

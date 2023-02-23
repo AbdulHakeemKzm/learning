@@ -134,3 +134,55 @@ span {
 .clr-btn {
   background-color: rgb(240, 124, 30);
 }
+
+@media screen and (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .left {
+    display: flex;
+    justify-content: start;
+  }
+  .right {
+    width: 0%;
+    margin-left: 9%;
+    justify-content: left;
+    display: flex;
+  }
+  .head {
+    margin-left: 2%;
+  }
+  .form {
+    margin-left: 0%;
+  }
+  .form2 {
+    margin-left: 0%;
+  }
+  .form div {
+    width: 100%;
+    float: none;
+  }
+  textarea {
+    width: 80%;
+    height: 40%;
+    overflow: auto;
+  }
+  .check li {
+    display: block;
+  }
+  button {
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline;
+    float: right;
+  }
+  .clr-btn {
+    margin-left: 0%;
+    margin-right: 0%;
+    float: left;
+  }
+}
