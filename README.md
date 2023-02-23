@@ -16,7 +16,7 @@
 - `ls` - List contents of a directory, Eg: `ls -a` lists hidden files as well.
 - `pwd` - Display current working directory path
 - `cat` - Display contents of a file. Eg: `cat README.md`
-- `rm` - remove file or folder Eg: `rm ducoment.txt`
+- `rm` - remove file or folder Eg: `rm document.txt`
 - `clear` - clear terminal
 
 ## Git Commands
@@ -26,7 +26,7 @@
 2. `git config --list` to see added config
 3. `git clone` Clone a remote git repo to your local Eg: for Github `git clone https://github.com/username/repositoryname.git`
 4. `git status` see the current changes
-5. `git add` Add yuor file changes to git Eg: for all changes `git add .`, for each file or folder `git add filename` Eg: `git add README.md`
+5. `git add` Add your file changes to git Eg: for all changes `git add .`, for each file or folder `git add filename` Eg: `git add README.md`
 6. `git commit` Commit Changes to git Eg: `git commit -m "Initial Commit"`
 7. `git push` Push your commits to remote repo Eg:`git push origin main`
 8. `git reset --hard` remove all changes
@@ -60,7 +60,7 @@ Read The bellow pages and attend tests
 - [Formatting](https://www.w3schools.com/html/html_formatting.asp)
 - [Quotations](https://www.w3schools.com/html/html_quotation_elements.asp)
 - [Comments](https://www.w3schools.com/html/html_comments.asp)
-- [Clors](https://www.w3schools.com/html/html_comments.asp)
+- [Colors](https://www.w3schools.com/html/html_comments.asp)
 - [CSS](https://www.w3schools.com/html/html_css.asp)
 - [Links](https://www.w3schools.com/html/html_links.asp)
 - [Images](https://www.w3schools.com/html/html_images.asp)
