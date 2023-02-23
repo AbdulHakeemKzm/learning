@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>task-5</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="navbar">
+        <div class="left">
+          <img src="images/logo.png" alt="One School" />
+          <h2>One&nbspSchool</h2>
+          <div class="right">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div id="container">
+        <div class="sidebar">
+          <nav>
+            <ul>
+              <li><a href="#" class="link">STUDENTS</a></li>
+              <li><a href="#" class="link">STAFF</a></li>
+              <li><a href="#" class="link">EXAMS</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="cont">
+          <div class="head">
+            <h2><u>STUDENT&nbspREGISTRATION</u></h2>
+          </div>
+          <div class="form">
+            <form action="">
+              <div class="fname">
+                <ul>
+                  <li>
+                    <label for="fname">
+                      First name
+                      <span>*</span>:
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      type="text"
+                      id="fname"
+                      placeholder="Enter your first name"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="lname">
+                <ul>
+                  <li>
+                    <label for="lname">
+                      Last name
+                      <span>*</span>:
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      type="text"
+                      id="lname"
+                      placeholder="Enter your last name"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="mobile">
+                <ul>
+                  <li>
+                    <label for="Mobile">
+                      Mobile
+                      <span>*</span>:
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      type="text"
+                      id="mobile"
+                      placeholder="Enter your mobile number"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="email">
+                <ul>
+                  <li>
+                    <label for="email">
+                      Email
+                      <span>*</span>:
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Enter your email"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="branch">
+                <ul>
+                  <li>
+                    <label for="branch">
+                      Branch
+                      <span>*</span>:
+                    </label>
+                  </li>
+                  <li>
+                    <select
+                      name="Branch"
+                      id="branch"
+                      aria-placeholder="Select your branch"
+                    >
+                      <option value="Developer">select branch</option>
+                      <!-- <option value="Tester">Tester</option>
+                      <option value="Manager">Manager</option> -->
+                    </select>
+                  </li>
+                </ul>
+              </div>
+              <div class="radio">
+                <ul>
+                  <li>
+                    <p>Do you Need Hostel Facility:</p>
+                  </li>
+                  <li>
+                    <input type="radio" id="yes" name="yes" value="yes" />
+                    <label for="yes">Yes </label>
+                    <input type="radio" id="No" name="no" value="no" />
+                    <label for="No">No </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="form2">
+              <div class="check">
+                <ul>
+                  <li>
+                    <p>Choose Additional Subjects:</p>
+                  </li>
+                    <li>
+                      <input type="checkbox" id="cyber security"name="cyber security"value="cyber security" />
+                      <label for="syber security">Cyber Security</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="AI" name="AI" value="AI" />
+                      <label for="AI">Artificial Intelligence</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="BC" name="BC" value="BC" />
+                      <label for="BC">Block Chain</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="Iot" name="IoT" value="IoT" />
+                      <label for="BC">IoT</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="RB" name="RB" value="RB" />
+                      <label for="RB">Robotics</label>
+                    </li>
+                </ul>
+              </div>
+              <div class="textarea">
+                <ul>
+                  <li>
+                    <label for="address"
+                      >Permanent Address <span>*</span>:</label
+                    >
+                  </li>
+                  <li>
+                    <textarea
+                      cols="70"
+                      rows="10"
+                      id="address"
+                      name="address"
+                      placeholder="Enter your full address"
+                    >
+                    </textarea>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </form>
+            <div class="button">
+              <ul>
+                <li>
+                  <button type="submit">SUBMIT</button>
+                  <button class ="clr-btn" type="submit">CLEAR</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

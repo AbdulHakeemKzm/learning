@@ -1,0 +1,136 @@
+body {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1%;
+  width: 98%;
+  height: 90px;
+  border-bottom: 2px solid rgb(190, 190, 190);
+}
+#container {
+  width: 100%;
+  height: 100%;
+}
+.sidebar {
+  float: left;
+  border-right: 2px solid rgb(190, 190, 190);
+  height: 900px;
+  width: 12%;
+  display: flex;
+}
+.sidebar li {
+  padding-top: 20%;
+  list-style-type: none;
+}
+li > a {
+  color: rgb(85, 75, 75);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.left {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+.left > h2 {
+  font-size: 30px;
+  color: rgb(85, 75, 75);
+  padding-left: 1%;
+}
+.right {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: right;
+  margin-right: 2%;
+}
+.cont {
+  width: 100%;
+  height: 100%;
+}
+.head {
+  padding-top: 1%;
+  margin-left: 16%;
+}
+.form {
+  position: relative;
+  overflow: auto;
+  margin-left: 12%;
+  padding: 1%;
+  height: auto;
+  width: 80%;
+}
+.form div {
+  position: relative;
+  float: left;
+  height: auto;
+  width: 48%;
+}
+
+li {
+  list-style-type: none;
+}
+#fname,
+#lname,
+#email,
+#mobile,
+#branch,
+#radio {
+  height: 40px;
+  width: 80%;
+}
+.button {
+  margin-right: 8%;
+}
+button {
+  background-color: rgb(54, 161, 68);
+  height: 50px;
+  width: 160px;
+  color: white;
+  float: right;
+  margin-right: 2%;
+  border-style: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+input[type="checkbox"] {
+  margin-left: 5%;
+}
+.check ul {
+  margin-left: -5%;
+}
+.check p {
+  margin-left: 5%;
+}
+.check li {
+  width: 100%;
+  margin-left: 0%;
+  display: inline;
+}
+.form2 {
+  padding-left: 0%;
+  margin-left: 13%;
+}
+label,
+p {
+  font-size: 18px;
+  /* padding: 1% 1% 1% 0%; */
+}
+span {
+  color: red;
+}
+.clr-btn {
+  background-color: rgb(240, 124, 30);
+}
